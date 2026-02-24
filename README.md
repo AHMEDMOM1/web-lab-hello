@@ -1,73 +1,64 @@
-# React + TypeScript + Vite
+# Web Tasarımı ve Programlama - LAB 1 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-Currently, two official plugins are available:
+## 📝 وصف المشروع (Project Description)
+هذا المشروع عبارة عن تطبيق ويب تفاعلي بسيط تم تطويره كجزء من المعمل الأول (LAB-1) لمادة "Web Tasarımı ve Programlama". 
+يهدف المشروع إلى استعراض أساسيات بناء واجهات المستخدم باستخدام أحدث تقنيات الويب، مع تطبيق مفاهيم التصميم المتجاوب (Responsive Design) وبناء مكونات تفاعلية مثل العداد (Counter).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🌟 المميزات:
+- واجهة مستخدم عصرية بتصميم البطاقات (Card Design).
+- عداد تفاعلي يوضح كيفية إدارة الحالة (State Management) في React.
+- تذييل (Footer) ديناميكي يحتوي على السنة الحالية.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ التقنيات المستخدمة (Technologies)
+- **إطار العمل:** [React 19](https://react.dev/)
+- **أداة البناء:** [Vite](https://vitejs.dev/)
+- **اللغة الأساسية:** [TypeScript](https://www.typescriptlang.org/)
+- **تنسيق الواجهات:** Vanilla CSS (تصميم مرن ومتجاوب)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ⚙️ طريقة التثبيت (Installation)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+لتثبيت المشروع على جهازك المحلي، اتبع الخطوات التالية:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+1. **استنساخ المستودع (Clone the repository):**
+   ```bash
+   git clone https://github.com/AHMEDMOM1/web-lab-hello.git
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. **الدخول إلى مجلد المشروع:**
+   ```bash
+   cd web-lab-hello
+   ```
+
+3. **تثبيت الحزم البرمجية (Install Dependencies):**
+   تأكد من وجود [Node.js](https://nodejs.org/) مثبتًا مسبقًا، ثم قم يتنفيذ الأمر التالي:
+   ```bash
+   npm install
+   ```
+
+---
+
+## 🚀 طريقة التشغيل (Running the application)
+
+بعد الانتهاء من التثبيت، يمكنك تشغيل المشروع في بيئة التطوير عبر الأمر التالي:
+
+```bash
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+سيظهر لك رابط محلي (عادةً يكون `http://localhost:5173`). قم بفتحه في متصفحك لاستعراض التطبيق.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 👨‍💻 مطور المشروع
+**الاسم:** Ahmed Al Hamed  
+**الرقم الجامعي:** 225541606  
+
+*تم التطوير باستخدام React & Vite &copy; 2026*
