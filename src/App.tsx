@@ -18,6 +18,9 @@ function App() {
             Sayac: {count}
           </button>
         </div>
+        <footer className="footer">
+          <p>React vite ile geliştirildi &copy; {new Date().getFullYear()}</p>
+        </footer>
       </div>
     </div>
   )
