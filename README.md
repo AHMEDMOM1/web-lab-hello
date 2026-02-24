@@ -1,64 +1,28 @@
-# Web Tasarımı ve Programlama - LAB 1 🚀
+# Web LAB -1 - Hello Project
 
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+## Hakkında
+Bu proje, Web Tasarımı ve Programlama dersi LAB-1 kapsamında
+Vite + React + TypeScript kullanılarak oluşturulmuştur.
 
-## 📝 وصف المشروع (Project Description)
-هذا المشروع عبارة عن تطبيق ويب تفاعلي بسيط تم تطويره كجزء من المعمل الأول (LAB-1) لمادة "Web Tasarımı ve Programlama". 
-يهدف المشروع إلى استعراض أساسيات بناء واجهات المستخدم باستخدام أحدث تقنيات الويب، مع تطبيق مفاهيم التصميم المتجاوب (Responsive Design) وبناء مكونات تفاعلية مثل العداد (Counter).
+## Geliştirici
+- **Ad Soyad:** Ahmed Al Hamed
+- **Öğrenci No:** 225541606
 
-### 🌟 المميزات:
-- واجهة مستخدم عصرية بتصميم البطاقات (Card Design).
-- عداد تفاعلي يوضح كيفية إدارة الحالة (State Management) في React.
-- تذييل (Footer) ديناميكي يحتوي على السنة الحالية.
+## Kullanılan Teknolojiler
+- React
+- TypeScript
+- Vite
 
----
+## Kurulum
+```bash
+npm install
+```
 
-## 🛠️ التقنيات المستخدمة (Technologies)
-- **إطار العمل:** [React 19](https://react.dev/)
-- **أداة البناء:** [Vite](https://vitejs.dev/)
-- **اللغة الأساسية:** [TypeScript](https://www.typescriptlang.org/)
-- **تنسيق الواجهات:** Vanilla CSS (تصميم مرن ومتجاوب)
-
----
-
-## ⚙️ طريقة التثبيت (Installation)
-
-لتثبيت المشروع على جهازك المحلي، اتبع الخطوات التالية:
-
-1. **استنساخ المستودع (Clone the repository):**
-   ```bash
-   git clone https://github.com/AHMEDMOM1/web-lab-hello.git
-   ```
-
-2. **الدخول إلى مجلد المشروع:**
-   ```bash
-   cd web-lab-hello
-   ```
-
-3. **تثبيت الحزم البرمجية (Install Dependencies):**
-   تأكد من وجود [Node.js](https://nodejs.org/) مثبتًا مسبقًا، ثم قم يتنفيذ الأمر التالي:
-   ```bash
-   npm install
-   ```
-
----
-
-## 🚀 طريقة التشغيل (Running the application)
-
-بعد الانتهاء من التثبيت، يمكنك تشغيل المشروع في بيئة التطوير عبر الأمر التالي:
-
+## Çalıştırma
 ```bash
 npm run dev
 ```
+Tarayıcıda http://localhost:5173 adresini aç.
 
-سيظهر لك رابط محلي (عادةً يكون `http://localhost:5173`). قم بفتحه في متصفحك لاستعراض التطبيق.
-
----
-
-## 👨‍💻 مطور المشروع
-**الاسم:** Ahmed Al Hamed  
-**الرقم الجامعي:** 225541606  
-
-*تم التطوير باستخدام React & Vite &copy; 2026*
+## Ekran Görüntüsü
+*(Ekran görüntüsünü buraya ekle)*
