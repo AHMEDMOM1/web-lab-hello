@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "E-Commerce Dashboard",
+    "description": "A comprehensive admin dashboard for managing products, orders, and customers.",
+    "category": "Frontend",
+    "createdAt": "2023-10-01T10:00:00Z",
+    "stars": 120
+  },
+  {
+    "id": "2",
+    "name": "User Auth API",
+    "description": "Secure robust RESTful API for user authentication and authorization using JWT.",
+    "category": "Backend",
+    "createdAt": "2023-11-15T14:30:00Z",
+    "stars": 85
+  },
+  {
+    "id": "3",
+    "name": "Task Manager",
+    "description": "Fullstack application for organizing daily tasks with real-time updates.",
+    "category": "Fullstack",
+    "createdAt": "2024-01-20T09:15:00Z",
+    "stars": 200
+  },
+  {
+    "id": "4",
+    "name": "Fitness Tracker App",
+    "description": "Mobile application to log workouts and track health metrics.",
+    "category": "Mobile",
+    "createdAt": "2024-02-10T16:45:00Z",
+    "stars": 45
+  },
+  {
+    "id": "5",
+    "name": "Portfolio Template",
+    "description": "Customizable minimalist portfolio template built with React and Tailwind CSS.",
+    "category": "Frontend",
+    "createdAt": "2024-03-05T11:20:00Z",
+    "stars": 310
+  }
+]

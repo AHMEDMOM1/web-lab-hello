@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react'
 import UIKit from './pages/UIKit'
+import ProjectsPage from './pages/ProjectsPage'
 
 function App() {
   const [count, setCount] = useState(0)
-  const [page, setPage] = useState<'home' | 'uikit'>('home')
+  const [page, setPage] = useState<'home' | 'uikit' | 'projects'>('home')
   const [dark, setDark] = useState(false)
 
   // Toggle dark class on <html>
@@ -53,6 +54,16 @@ function App() {
             >
               UI Kit
             </button>
+            <button
+              onClick={() => setPage('projects')}
+              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all duration-200 ${
+                page === 'projects'
+                  ? 'bg-primary text-white'
+                  : 'text-muted dark:text-dark-text-muted hover:bg-primary-light dark:hover:bg-dark-surface-alt'
+              }`}
+            >
+              Projeler
+            </button>
 
             {/* Dark Mode Toggle */}
             <button
@@ -69,6 +80,8 @@ function App() {
       {/* ── PAGE ROUTER ── */}
       {page === 'uikit' ? (
         <UIKit />
+      ) : page === 'projects' ? (
+        <ProjectsPage />
       ) : (
         <>
           {/* ── HERO SECTION ── */}
